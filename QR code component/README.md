@@ -15,6 +15,9 @@ The challenge was to build out the QR code component and get it looking as close
 - CSS custom properties
 - Flexbox
 
+## Live site
+https://vladoflincec.github.io/frontend-mentor-challenges/QR%20code%20component/
+
 ## Author
 
 - Github - [Vlado Flinčec](https://github.com/vladoflincec)

@@ -1,0 +1,100 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--grey900);
+    font-family:"Inter", sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: var(--grey800);
+    color: var(--white);
+    justify-content: center;
+    text-align: center;
+    max-width: 380px;
+    width: 90%;
+    padding: 1.6rem 2.5rem;
+    border-radius: 1rem;
+}
+
+main img {
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+h2 + p {
+    color: var(--green);
+    font-weight: 600;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.bio {
+    font-size: 0.85rem;
+    margin: 1.8rem 0 1.5rem 0;
+}
+
+.sm-links a {
+    display: block;
+    background-color: var(--grey700);
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.sm-links a:hover {
+    background-color: var(--green);
+    color: var(--grey900);
+}
+
+footer {
+    padding: 1rem 0;
+    color: var(--white);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    main {
+        padding: 1.5rem;
+        width: 85%;
+        padding: 0.5rem 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
