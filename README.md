@@ -9,7 +9,7 @@ This repository contains my solutions to various [Frontend Mentor](https://www.f
 | Challenge | Code | Live Demo |
 |----------|------|-----------|
 | [QR code component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | [Code](https://github.com/vladoflincec/frontend-mentor-challenges/tree/main/QR%20code%20component) | [Live](https://vladoflincec.github.io/frontend-mentor-challenges/QR%20code%20component/) |
-| [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | [Code](https://vladoflincec.github.io/frontend-mentor-challenges/Social%20links%20profile/) | [Live](https://vladoflincec.github.io/frontend-mentor-challenges/Social%20links%20profile/) |
+| [Social links profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | [Code](https://github.com/vladoflincec/frontend-mentor-challenges/tree/main/Social%20links%20profile) | [Live](https://vladoflincec.github.io/frontend-mentor-challenges/Social%20links%20profile/) |
 
 ---
 
